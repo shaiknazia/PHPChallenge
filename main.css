@@ -1,0 +1,21 @@
+li {
+  display: grid;
+  grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-items: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* li:last-child {
+    flex-grow: 10;
+  } */
+
+img {
+  height: 25vh;
+  width: auto;
+  margin: 10px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
